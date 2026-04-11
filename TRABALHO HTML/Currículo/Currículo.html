@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo - José Pedro</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      padding: 30px;
+    }
+
+    .curriculo {
+      max-width: 1000px;
+      margin: auto;
+      display: flex;
+      background-color: white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .lateral {
+      width: 35%;
+      background-color: #35588f;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    .lateral h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+      letter-spacing: 3px;
+    }
+
+    .lateral p, .lateral li {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .lateral ul {
+      padding-left: 20px;
+    }
+
+    .principal {
+      width: 65%;
+      padding: 35px;
+    }
+
+    .principal h1 {
+      font-size: 32px;
+      color: #1f1f1f;
+      margin-bottom: 10px;
+    }
+
+    .principal .cargo {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .secao {
+      margin-bottom: 30px;
+    }
+
+    .secao h2 {
+      font-size: 22px;
+      color: #35588f;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #35588f;
+      padding-bottom: 5px;
+    }
+
+    .secao p, .secao li {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .secao ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .destaque {
+      font-weight: bold;
+      color: #222;
+    }
+
+    @media (max-width: 768px) {
+      .curriculo {
+        flex-direction: column;
+      }
+
+      .lateral, .principal {
+        width: 100%;
+      }
+    }
+.voltar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.voltar img {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+  </style>
+</head>
+<body>
+
+  <div class="curriculo">
+
+    <div class="lateral">
+      <h2>CONTATO</h2>
+      <p>📍 Endereço Residencial: Rua Itaquari, n° 300, Vila Velha - Espírito Santo 29101-850</p>
+      <p>✉️ jpbarcellos1210@gmail.com</p>
+      <p>📞 27 992738783</p>
+
+      <h2>HABILIDADES</h2>
+      <ul>
+        <li>Atendimento personalizado para fidelização de clientes</li>
+        <li>Boa comunicação verbal e escrita</li>
+        <li>Trabalho em equipe</li>
+        <li>Atendimento híbrido chat e SAC</li>
+        <li>Equilíbrio emocional para situações delicadas</li>
+        <li>Melhoria de processos</li>
+      </ul>
+    </div>
+
+    <div class="principal">
+      <h1>JOSÉ PEDRO BARCELLOS CALDEIRA CARDOSO</h1>
+      <p class="cargo">Estudante de Tecnologia | Em desenvolvimento para se tornar um programador de sucesso</p>
+
+      <div class="secao">
+        <h2>Resumo Profissional</h2>
+        <p>
+          Estou interessado em oportunidades na área de tecnologia e acredito que minhas habilidades
+          sejam uma boa combinação para o sucesso nesse papel. Sou organizado, tenho boa capacidade
+          de multitarefa, excelente relacionamento interpessoal e muita vontade de aprender e trabalhar.
+        </p>
+      </div>
+
+      <div class="secao">
+        <h2>Histórico Acadêmico</h2>
+        <p><span class="destaque">Sesi - Centro de Atividades Helcio Rezende Dias</span></p>
+        <p>Técnico em Biotecnologia | Jan. de 2021 - Dez. de 2023</p>
+      </div>
+
+      <div class="secao">
+        <h2>Experiência de Trabalho</h2>
+        <ul>
+          <li>Prestação de suporte ao cliente, gerando segunda via de boletos, alterando datas de pagamento e realizando mudanças nos serviços.</li>
+          <li>Atendimento via chat e SAC para esclarecimento de dúvidas, auxiliando clientes em diversas situações para aumentar a satisfação.</li>
+          <li>Resolução de reclamações e problemas dos clientes de forma eficiente e cordial.</li>
+        </ul>
+      </div>
+
+      <div class="secao">
+        <h2>Objetivo</h2>
+        <p>
+          Minha meta é crescer profissionalmente na área de tecnologia, desenvolvendo minhas habilidades
+          para me tornar um programador de sucesso e conquistar uma oportunidade em uma grande empresa,
+          como o PicPay.
+        </p>
+
+<div class="voltar">
+    <a href="../index.html">
+        <img src="../Imagens/Voltar.jpg" alt="Voltar">
+    </a>
+</div>
+
+
+</body>
+</html>

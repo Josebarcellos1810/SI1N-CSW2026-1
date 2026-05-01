@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Plataformas de Streaming</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .box {
+        width: 200px;
+        padding: 20px;
+        border: 2px solid #333;
+        background-color: #fff;
+        border-radius: 10px;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .box:hover {
+        background-color: #e6f0ff;
+        border-color: blue;
+    }
+
+    .box:active {
+        background-color: #cce0ff;
+    }
+
+    .nome {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 40px;
+        text-decoration: none;
+        color: purple;
+        cursor: pointer;
+        transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    a:hover {
+        transform: scale(1.2);
+    }
+
+    a:active {
+        color: red;
+        transform: scale(0.8);
+        filter: drop-shadow(0 0 6px red);
+    }
+
+</style>
+</head>
+
+<body>
+
+<h1>Plataformas de Streaming</h1>
+
+<div class="container">
+
+    <div class="box">
+        <div class="nome">*Spotify*</div>
+        <a href="https://open.spotify.com" target="_blank">🎵</a>
+    </div>
+
+    <div class="box">
+        <div class="nome">*YouTube*</div>
+        <a href="https://youtube.com" target="_blank">🎵</a>
+    </div>
+
+    <div class="box">
+        <div class="nome">*Amazon Music*</div>
+        <a href="https://music.amazon.com" target="_blank">🎵</a>
+    </div>
+
+</div>
+
+</body>
+</html>

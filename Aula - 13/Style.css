@@ -1,0 +1,108 @@
+/* ===== CONFIGURAÇÃO GERAL ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+
+/* ===== HEADER RESPONSIVO ===== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    border: 3px solid #1f1f4d;
+    border-radius: 10px;
+    background-color: white;
+
+    margin-bottom: 40px;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #1f1f4d;
+    border-radius: 8px;
+}
+
+
+/* MENU */
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.menu div {
+    width: 40px;
+    height: 12px;
+    background-color: #1f1f4d;
+    border-radius: 10px;
+}
+
+
+/* ===== GALERIA DINÂMICA ===== */
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    padding: 20px;
+
+    border: 2px solid #ccc;
+    border-radius: 12px;
+
+    background-color: white;
+}
+
+
+/* TODOS OS BLOCOS */
+
+.bloco {
+    height: 70px;
+
+    background-color: #d9d9d9;
+
+    border-radius: 8px;
+}
+
+
+/* PRIMEIRA LINHA */
+
+.grande {
+    flex-grow: 1;
+
+    min-width: 140px;
+}
+
+
+/* SEGUNDA LINHA */
+
+.pequeno {
+    flex-grow: 1;
+
+    min-width: 90px;
+}
+
+.medio {
+    flex-grow: 2;
+
+    min-width: 140px;
+}
+
+
+/* TERCEIRA LINHA */
+
+.gigante {
+    flex-grow: 1;
+
+    min-width: 300px;
+}

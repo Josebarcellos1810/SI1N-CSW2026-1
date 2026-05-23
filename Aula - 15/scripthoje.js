@@ -23,11 +23,14 @@ if (resposta) {
 
 }
 
-Function exibenomealuno () {document.getElementById('inputNomeAluno').value;                                                                                                              
-
+Function exibenomealuno () {
+    let inputAluno = document.getElementById('inputNomeAluno').value;  
+    document.getElementById('resposta').innerHTML = "O nome do aluno digitado foi" + inputAluno;                                                                                                            
 }
 
 document.getElementById("resposta").innerHTML = "O nome do aluno digitado foi: + inputAluno"
 
-document.getElementById("resposta").style.backgroundImage = "linear-Gradient
-(to right, red, yellow)";
+Function apaganomeAluno () {
+    document.getElementById('inputNomeAluno').value = "";
+    document.getElementById('resposta').innerHTML = "";                                                                                                         
+}
